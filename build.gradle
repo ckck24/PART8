@@ -64,6 +64,12 @@ dependencies {
 
     implementation 'net.coobird:thumbnailator:0.4.16'
 
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
+
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+
 }
 
 tasks.named('test') {
